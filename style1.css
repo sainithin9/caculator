@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background-color: black;
+}
+button{
+    float: right;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#calc,#calc2,#calc3{
+    border: 3px solid rgb(147, 242, 13);
+}
+#calc2{
+    visibility: hidden;
+}
+#clear,#clear2{
+    border: 3px solid rgb(250, 49, 83);
+}
+input:hover{
+    background-color: rgb(215, 212, 212);
+}
+
+input:active {
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+
+@media (min-width:801px){
+    .formstyle,.formstyle2{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+     #calc,#calc3{
+        width: 70%;
+        height: 30px;
+        margin: 2% 15% 2% 15%;
+    }
+    #calc2{
+        width: 70%;
+        height:30px ;
+        margin: 0%;
+    }
+
+    #input{
+        width: 70%;
+        margin: 2% 15% 2% 15%;
+    }
+    input{
+        margin-left: 8%;
+        width: 15%;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    #clear,#clear2{
+        width: 70%;
+        height: 30px;
+        margin: 2% 15% 2% 15%;
+    }
+}
+
+@media (max-width:800px){
+    .formstyle,.formstyle2{
+        width: 90%;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+    #calc,#calc2,#calc3{
+        width: 70%;
+        height: 30px;
+        margin: 2% 15% 2% 15%;
+    }
+    #input{
+        width: 70%;
+        margin: 2% 15% 2% 15%;
+    }
+    input{
+        margin-left: 8%;
+        width: 15%;
+        height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    #clear,#clear2{
+        width: 70%;
+        height: 30px;
+        margin: 4% 15% 2% 15%;
+    }
+}
+
+
+

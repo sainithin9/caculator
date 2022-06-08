@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(5, 5, 5);
+}
+h1{
+    color: white;
+}
+.SIGNUP{
+    border: 3px solid greenyellow;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 40%;
+    margin: 80px 30% 0px 30%;
+    border-radius: 10px;
+}
+input{
+    width: 60%;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: antiquewhite;
+    transform: translateY(2px);
+}
+a{
+    color: yellow;
+}
+a:active{
+    color: rgb(105, 227, 229);
+}
+@media (min-width:801px){
+    .SIGNUP{width: 40%;
+    margin: 80px 30% 0px 30%;
+    }
+}
+@media (max-width:800px){
+    .SIGNUP{width: 60%;
+        margin: 80px 20% 0px 20%;}
+}

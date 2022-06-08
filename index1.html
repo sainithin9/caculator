@@ -1,0 +1,93 @@
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>  
+<title> CALCI BY ME FOR ME </title>  
+<link rel="stylesheet" href="style1.css">
+</head>  
+<body>  
+<h1> DO WHATEVER YOU WANT </h1>  
+<div class= "formstyle">  
+<form name = "form1">  
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+  <div id="input">
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+  <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br> 
+  </div>    
+  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br> 
+    
+</form>  
+</div>  
+
+<h1>TRIGNOMETRIC CALCI</h1>
+<div class= "formstyle2" >  
+  <form name = "form2">  
+    <input id = "calc2" type ="text" name = "answer2"> <br> <br>   
+    <input id = "calc3" type ="text" name = "answer3"> <br> <br>
+    <div id="input">
+    <input type = "button" value = "sin" onclick = "form2.answer2.value += 'Math.sin';form2.answer3.value += 'sin' ">  
+    <input type = "button" value = "cos" onclick = "form2.answer2.value += 'Math.cos';form2.answer3.value += 'cos'  ">  
+    <input type = "button" value = "tan" onclick = "form2.answer2.value += 'Math.tan';form2.answer3.value += 'tan'  ">  
+     <input type = "button" value = "+" onclick = "form2.answer2.value += '+';form2.answer3.value += '+'  ">  
+    <br> <br>  
+      
+    <input type = "button" value = "sinh" onclick = "form2.answer2.value += 'Math.sinh';form2.answer3.value += 'sinh'  ">  
+    <input type = "button" value = "cosh" onclick = "form2.answer2.value += 'Math.cosh';form2.answer3.value += 'cosh'  ">  
+    <input type = "button" value = "tanh" onclick = "form2.answer2.value += 'Math.tanh' ;form2.answer3.value += 'tanh' ">  
+     <input type = "button" value = "*" onclick = "form2.answer2.value += '*';form2.answer3.value += '*'  ">  
+    <br> <br> 
+
+    <input type = "button" value = "1" onclick = "form2.answer2.value += '1';form2.answer3.value += '1'  ">  
+    <input type = "button" value = "2" onclick = "form2.answer2.value += '2';form2.answer3.value += '2'  ">  
+    <input type = "button" value = "3" onclick = "form2.answer2.value += '3';form2.answer3.value += '3'  ">  
+     <input type = "button" value = "-" onclick = "form2.answer2.value += '-';form2.answer3.value += '-'  ">  
+    <br> <br> 
+
+    <input type = "button" value = "4" onclick = "form2.answer2.value += '4';form2.answer3.value += '4'  ">  
+    <input type = "button" value = "5" onclick = "form2.answer2.value += '5';form2.answer3.value += '5'  ">  
+    <input type = "button" value = "6" onclick = "form2.answer2.value += '6';form2.answer3.value += '6'  ">  
+     <input type = "button" value = "/" onclick = "form2.answer2.value += '/';form2.answer3.value += '/'  ">  
+    <br> <br>
+
+    <input type = "button" value = "7" onclick = "form2.answer2.value += '7';form2.answer3.value += '7'  ">  
+    <input type = "button" value = "8" onclick = "form2.answer2.value += '8';form2.answer3.value += '8'  ">  
+    <input type = "button" value = "9" onclick = "form2.answer2.value += '9' ;form2.answer3.value += '9' ">
+    <input type = "button" value = "0" onclick = "form2.answer2.value += '0' ;form2.answer3.value += '0' "> 
+
+    <br><br>
+    <input type = "button" value = "." onclick = "form2.answer2.value += '.';form2.answer3.value += '.'  ">  
+    <input type = "button" value = "=" onclick = "form2.answer2.value = eval(form2.answer2.value);form2.answer3.value = eval(form2.answer2.value)  "> 
+    <input type = "button" value = "(" onclick = "form2.answer2.value += '(';form2.answer3.value += '('; "> 
+    <input type = "button" value = ")" onclick = "form2.answer2.value += '*Math.PI/180)';form2.answer3.value += ' Degrees )'  "> 
+    <br><br>
+
+    </div>    
+    <input type = "button" value = "Clear All" onclick = "form2.answer2.value = ' ';form2.answer3.value = ' '" id= "clear2" >  
+    <br>   
+      
+  </form>  
+  </div>
+</body>  
+</html>
