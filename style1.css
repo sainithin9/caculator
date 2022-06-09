@@ -30,12 +30,7 @@ input:active {
     box-shadow: 0 5px grey;
     transform: translateY(4px);
   }
-.areas{
-    display: none;
-}
-#tr{
-    display: none;
-}
+
 @media (min-width:1001px){
     .formstyle,.formstyle2{
         width: 50%;
