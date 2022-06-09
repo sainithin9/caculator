@@ -85,9 +85,29 @@
 
     </div>    
     <input type = "button" value = "Clear All" onclick = "form2.answer2.value = ' ';form2.answer3.value = ' '" id= "clear2" >  
-    <br>   
-      
+    <br><br>
+    <h1>FIND AREAS</h1>
+    <h1>CIRCLE</h1>
+    <input type = "text" name="radius" placeholder="radius"> 
+    <input type = "button" value = "=" onclick = "form2.ca.value=circle(form2.radius.value)"> 
+    <input type = "text" name="ca" placeholder="area"> 
+    <h1>SQUARE  </h1>
+    <input type = "text" name="side" placeholder="side"> 
+    <input type = "button" value = "=" onclick = "form2.sa.value=square(form2.side.value)"> 
+    <input type = "text" name="sa" placeholder="area">  
+    <h1>RECTANGLE</h1>
+    <input type = "text" name="length" placeholder="length"> 
+    <input type = "text" name="width" placeholder="width"> 
+    <input type = "button" value = "=" onclick = "form2.ra.value=rectangle(form2.length.value,form2.width.value)">  
+    <input type = "text" name="ra" placeholder="area"> 
+    <h1>TRIANGLE</h1>
+    <input type = "text" name="height" placeholder="height"> 
+    <input type = "text" name="base" placeholder="base"> 
+    <input type = "button" value = "=" onclick = "form2.ta.value=triangle(form2.height.value,form2.base.value)">  
+    <input type = "text" name="ta" placeholder="area"> 
+    <br><br>
   </form>  
   </div>
+  <script src="script.js"></script>
 </body>  
 </html>
