@@ -6,9 +6,7 @@ body{
     width: 100%;
     background-color: black;
 }
-button{
-    float: right;
-}
+
 h1{
     text-align: center;
     color: aliceblue;
@@ -32,8 +30,13 @@ input:active {
     box-shadow: 0 5px grey;
     transform: translateY(4px);
   }
-
-@media (min-width:801px){
+.areas{
+    display: none;
+}
+#tr{
+    display: none;
+}
+@media (min-width:1001px){
     .formstyle,.formstyle2{
         width: 50%;
         margin-left: 25%;
@@ -69,7 +72,7 @@ input:active {
     }
 }
 
-@media (max-width:800px){
+@media (max-width:1000px){
     .formstyle,.formstyle2{
         width: 90%;
         margin-left: 5%;

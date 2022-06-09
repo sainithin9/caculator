@@ -6,7 +6,7 @@
 </head>  
 <body>  
 <h1> DO WHATEVER YOU WANT </h1>  
-<div class= "formstyle">  
+<div class= "formstyle" id="nrm">  
 <form name = "form1">  
   <input id = "calc" type ="text" name = "answer"> <br> <br>  
   <div id="input">
@@ -37,12 +37,16 @@
   </div>    
   <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
   <br> 
+  <br>
+  <button onclick="trig()" >TRIGNOMETRIC CALCI</button>
+  <button onclick="areea()">AREAS CALCI</button>
     
 </form>  
 </div>  
 
-<h1 style="color:green">TRIGNOMETRIC CALCI</h1>
-<div class= "formstyle2" >  
+
+<div class= "formstyle2" id="tr">  
+  <h1 style="color:green">TRIGNOMETRIC CALCI</h1>
   <form name = "form2">  
     <input id = "calc2" type ="text" name = "answer2"> <br> <br>   
     <input id = "calc3" type ="text" name = "answer3"> <br> <br>
@@ -83,9 +87,14 @@
     <input type = "button" value = ")" onclick = "form2.answer2.value += '*Math.PI/180)';form2.answer3.value += ' Degrees )'  "> 
     <br><br>
 
-    </div>    
+    </div>  
+   
     <input type = "button" value = "Clear All" onclick = "form2.answer2.value = ' ';form2.answer3.value = ' '" id= "clear2" >  
+  </div>
     <br><br>
+
+
+    <div class="areas" id="ars">
     <h1 style="color:green">FIND AREAS</h1>
     <h1>CIRCLE</h1>
     <input type = "text" name="radius" placeholder="radius"> 
@@ -106,6 +115,9 @@
     <input type = "button" value = "=" onclick = "form2.ta.value=triangle(form2.height.value,form2.base.value)">  
     <input type = "text" name="ta" placeholder="area"> 
     <br><br>
+  </div>
+
+
   </form>  
   </div>
   <script src="script.js"></script>
